@@ -162,22 +162,23 @@ async def braodcast_message(client, message, _):
             pass
 
     # Bot broadcasting by assistant
-if "-assistant" in message.text:
-    aw = await message.reply_text(_["broad_2"])
-    text = _["broad_3"]
-    from ChampuMusic.core.userbot import assistants
+    if "-assistant" in message.text:
+        aw = await message.reply_text(_["broad_2"])
+        text = _["broad_3"]
+        from ChampuMusic.core.userbot import assistants
 
-    for num, client in enumerate(assistants, start=1):
-        sent = 0
-        try:
+        for num in assistants:
+            sent = 0
+            client = await get_client(num)
             async for dialog in client.get_dialogs():
                 if dialog.chat.id == config.LOGGER_ID:
                     continue
                 try:
-                    if message.reply_to_message:
-                        await client.forward_messages(dialog.chat.id, message.reply_to_message.message_id)
-                    else:
-                        await client.send_message(dialog.chat.id, text)
+                    (
+                        await client.forward_messages(dialog.chat.id, y, x)
+                        if message.reply_to_message
+                        else await client.send_message(dialog.chat.id, text=query)
+                    )
                     sent += 1
                 except FloodWait as e:
                     flood_time = int(e.value)
@@ -185,19 +186,14 @@ if "-assistant" in message.text:
                         continue
                     await asyncio.sleep(flood_time)
                 except Exception as e:
-                    print(f"Error while sending message to {dialog.chat.id}: {e}")
+                    print(e)
                     continue
-        except Exception as e:
-            print(f"Error while retrieving dialogs for client {num}: {e}")
-            continue
-
-        text += _["broad_4"].format(num=num, sent=sent)
-    try:
-        await aw.edit_text(text)
-    except Exception as e:
-        print(f"Error while editing the message: {e}")
+            text += _["broad_4"].format(num, sent)
+        try:
+            await aw.edit_text(text)
+        except:
+            pass
     IS_BROADCASTING = False
-
 
 
 async def auto_clean():
