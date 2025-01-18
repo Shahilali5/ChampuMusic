@@ -12,18 +12,19 @@ from ChampuMusic import LOGGER
 
 logger = LOGGER(__name__)
 
-
+# Remove the EXTRA_PLUGINS_FOLDER if it exists
 if EXTRA_PLUGINS_FOLDER in os.listdir():
     shutil.rmtree(EXTRA_PLUGINS_FOLDER)
 
+# Remove the "utils" folder if it exists
 if "utils" in os.listdir():
     shutil.rmtree("utils")
 
 ROOT_DIR = abspath(join(dirname(__file__), "..", ".."))
-
 EXTERNAL_REPO_PATH = join(ROOT_DIR, EXTRA_PLUGINS_FOLDER)
 
-extra_plugins_enabled = EXTRA_PLUGINS.lower() == "true"
+# Convert EXTRA_PLUGINS to a string and check its value
+extra_plugins_enabled = str(EXTRA_PLUGINS).lower() == "true"
 
 if extra_plugins_enabled:
     if not os.path.exists(EXTERNAL_REPO_PATH):
@@ -38,6 +39,7 @@ if extra_plugins_enabled:
                     f"Error cloning external plugins repository: {clone_result.stderr.decode()}"
                 )
 
+    # Handle "utils" folder from external plugins
     utils_source_path = join(EXTERNAL_REPO_PATH, "utils")
     utils_target_path = join(ROOT_DIR, "utils")
     if os.path.isdir(utils_source_path):
@@ -57,6 +59,7 @@ if extra_plugins_enabled:
     if os.path.isdir(utils_target_path):
         sys.path.append(utils_target_path)
 
+    # Install additional requirements
     requirements_path = join(EXTERNAL_REPO_PATH, "requirements.txt")
     if os.path.isfile(requirements_path):
         with open(os.devnull, "w") as devnull:
@@ -72,6 +75,9 @@ if extra_plugins_enabled:
 
 
 def __list_all_modules():
+    """
+    List all Python modules in the main and external plugin directories.
+    """
     main_repo_plugins_dir = dirname(__file__)
     work_dirs = [main_repo_plugins_dir]
 
@@ -101,5 +107,6 @@ def __list_all_modules():
     return all_modules
 
 
+# Generate a list of all modules
 ALL_MODULES = sorted(__list_all_modules())
 __all__ = ALL_MODULES + ["ALL_MODULES"]
