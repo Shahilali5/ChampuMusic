@@ -2,7 +2,7 @@
     「 Shahil 」</h2>
 
 <p align="center">
-  <img src="https://GitHub.com/Shahilali5/ChampuMusic/assist/shahil.mp4">
+  <img src="https://GitHub.com/Shahilali5/ChampuMusic/assets/Black and Blue Creative Animated Gaming Youtube Intro Video_20250129_091840_0001.mp4">
 </p>
 </p>
  <h3></h3>h3>
