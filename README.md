@@ -25,7 +25,7 @@
 
 
 <h3 align="center">
-<a href="[https://www.youtube.com/@TERROR-2.O](https://www.youtube.com/@TERROR-2.O)"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>  
+<a href="[https://www.youtube.com/@TERROR-2.O](https://www.youtube.com/@TERROR-2.O)"><img src="https://github.com/Shahilali5/ChampuMusic/blob/0165c8473e725ca928ff91fe81030681f1f281e2/assets/shahil.mp4"></a>  
 </a></p>
 <p align="center">
 <a href="https://github.com/Shahilali5/ChampuMusic"><img src="https://img.shields.io/github/stars/Shahilali5/ChampuMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
