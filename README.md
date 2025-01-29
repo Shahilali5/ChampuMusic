@@ -2,7 +2,7 @@
     「 Shahil 」</h2>
 
 <p align="center">
-  <img src="https://GitHub.com/Shahilali5/ChampuMusic/assets/Shahil.mp4">
+  <img src="https://github.com/Shahilali5/ChampuMusic/assist/shahil.mp4">
 </p>
 </p>
  <h3></h3>h3>
