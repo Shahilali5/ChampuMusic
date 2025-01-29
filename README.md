@@ -126,7 +126,7 @@ sudo pkill -9 python3
 
 
 <h3 align="center">
-    ─「 🖤ꜱнͥινͣαͫиѕнυ🖤 」─
+    ─「 🖤Shahil🖤 」─
 </h3>
 
 <p align="center">
