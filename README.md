@@ -2,7 +2,7 @@
     「 Shahil 」</h2>
 
 <p align="center">
-  <img src="https://github.com/Shahilali5/ChampuMusic/blob/0165c8473e725ca928ff91fe81030681f1f281e2/assets/shahil.mp4">
+  <img src="https://github.com/Shahilali5/ChampuMusic/blob/caac29088b0c2edbb8ec64383298787fc169c2bd/assets/Black%20and%20Blue%20Creative%20Animated%20Gaming%20Youtube%20Intro%20Video_20250129_093831_0001.gif">
 </p>
 </p>
  <h3></h3>
@@ -25,7 +25,7 @@
 
 
 <h3 align="center">
-<a href="[https://www.youtube.com/@TERROR-2.O](https://www.youtube.com/@TERROR-2.O)"><img src="https://github.com/Shahilali5/ChampuMusic/blob/0165c8473e725ca928ff91fe81030681f1f281e2/assets/shahil.mp4"></a>  
+<a href="[https://www.youtube.com/@TERROR-2.O](https://www.youtube.com/@TERROR-2.O)"><img src="https://github.com/Shahilali5/ChampuMusic/blob/caac29088b0c2edbb8ec64383298787fc169c2bd/assets/Black%20and%20Blue%20Creative%20Animated%20Gaming%20Youtube%20Intro%20Video_20250129_093831_0001.gif"></a>  
 </a></p>
 <p align="center">
 <a href="https://github.com/Shahilali5/ChampuMusic"><img src="https://img.shields.io/github/stars/Shahilali5/ChampuMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
@@ -37,7 +37,7 @@
 <a href="https://github.com/Shahilali5/ChampuMusic/commits/"> <img src="https://img.shields.io/github/last-commit/Shahilali5/ChampuMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a></p>
 <a href="https://www.youtube.com/@TERROR-2.O"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>  
 <p align="center">
-  <img src="https://github.com/Shahilali5/ChampuMusic/blob/0165c8473e725ca928ff91fe81030681f1f281e2/assets/shahil.mp4">
+  <img src="https://github.com/Shahilali5/ChampuMusic/blob/caac29088b0c2edbb8ec64383298787fc169c2bd/assets/Black%20and%20Blue%20Creative%20Animated%20Gaming%20Youtube%20Intro%20Video_20250129_093831_0001.gif">
 </p>
 
 
