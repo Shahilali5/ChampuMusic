@@ -37,7 +37,7 @@
 <a href="https://github.com/Shahilali5/ChampuMusic/commits/"> <img src="https://img.shields.io/github/last-commit/Shahilali5/ChampuMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a></p>
 <a href="https://www.youtube.com/@TERROR-2.O"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>  
 <p align="center">
-  <img src="https://github.com/Shahilali5/ChampuMusic/blob/main/%F0%9F%96%A4%EA%9C%B1%E2%83%9F%D0%BD%CD%A5%CE%B9%CE%BD%CD%A3%CE%B1%CD%AB%D0%B8%D1%95%D0%BD%CF%85%F0%9F%96%A4.gif">
+  <img src="https://github.com/Shahilali5/ChampuMusic/blob/0165c8473e725ca928ff91fe81030681f1f281e2/assets/shahil.mp4">
 </p>
 
 
