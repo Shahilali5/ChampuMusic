@@ -14,7 +14,7 @@
 [˹мꝛ Shahil](https://t.me/Shahil440)
 
 <h3 align="center">
-<a href="https://github.com/Shahilali5"><img alt="Website" src="https://img.shields.io/badge/Shahil440red"></a>
+<a href="https://github.com/Shahilali5"><img alt="Website" src="https://img.shields.io/badge/Shahilali5red"></a>
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.me/Shahil440)
 [![Instagram](https://img.shields.io/badge/-Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/Shahil2877)
